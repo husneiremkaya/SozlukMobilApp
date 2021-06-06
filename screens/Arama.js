@@ -50,11 +50,11 @@ export default function AramaSayfasi({navigation}) {
   const getPicture = (searchInput) => {
     const options = {
       method: 'GET',
-      url: 'https://bing-image-search1.p.rapidapi.com/images/search',
+      url: 'BİNG İMAGE APİ',
       params: {q: searchInput, count: '1'},
       headers: {
-        'x-rapidapi-key': 'a31269193fmsh7c064749afb3364p1068fbjsnf48c68320a1d',
-        'x-rapidapi-host': 'bing-image-search1.p.rapidapi.com'
+        'x-rapidapi-key': '',
+        'x-rapidapi-host': ''
       }
     };
     
@@ -80,11 +80,11 @@ export default function AramaSayfasi({navigation}) {
       }
       const options = {
         method: 'GET',
-        url: 'https://google-translate20.p.rapidapi.com/translate',
+        url: 'GOOGLE TRANSLATE APİ',
         params: {text: textState, tl: first, sl: second},
         headers: {
-          'x-rapidapi-key': 'a31269193fmsh7c064749afb3364p1068fbjsnf48c68320a1d',
-          'x-rapidapi-host': 'google-translate20.p.rapidapi.com'
+          'x-rapidapi-key': '',
+          'x-rapidapi-host': ''
         }
       };
       
